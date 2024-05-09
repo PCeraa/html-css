@@ -31,6 +31,7 @@ header a:hover, footer a:hover {
 }
 
 section {
+    font-family: "Sriracha", cursive;
     padding-top: 10%;
     padding-bottom: 10%;
     line-height: 2em;
@@ -38,18 +39,42 @@ section {
 }
 
 section.normal {
+    font-weight: bolder;
     background-color: white;
     color: black;
 }
 
-section.imagem {
-    background-color: rgb(27, 27, 27);
+section.imagem1 {
+    background-attachment: fixed;
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     color: white;
 }
 
-section.imagem > p {
-    background-color: rgb(37, 37, 37);
-    width: 400px;
+section.imagem2 {
+    
+    background-attachment: fixed;
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+
+section.imagem1 > p {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 300px;
+}
+
+section.imagem2 > p {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 300px;
 }
 
 footer {
