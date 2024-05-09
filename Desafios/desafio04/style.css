@@ -31,6 +31,7 @@ header a:hover, footer a:hover {
 }
 
 section {
+    font-size: 1.5em;
     font-family: "Sriracha", cursive;
     padding-top: 10%;
     padding-bottom: 10%;
