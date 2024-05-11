@@ -1,0 +1,22 @@
+Continuação do exercicio de criação de tabelas 
+
+depois de criar o html da tabela e preencher com os dados a serem expostos 
+
+na parte de css vamos estilizar s tabelas, ate agora so temos as informaçoes da tabela organziada, celulas e colunas organizadas com os dados
+
+no css em 
+
+table {
+    width: 400px; (Define o tamaho das celulas)
+    border-collapse: collapse; (une as celulas e forma uma unica borda entre as celulas)
+}
+
+para aplicar estilos na linha toda configuramos o <tr>
+
+para aplicar estilos em somente uma celula configuramos o <tb>
+
+as tags do html devem por obrigação respeitar a hierarquia dos elementos, caso não respeitem isso os dados vão aparecer em baixo ou em cima da tabela
+
+<td> aceita text-algin: ; (center, right...)
+
+tambem aceita o vertical-algin (top, midle, bottom)
