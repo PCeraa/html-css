@@ -1,1 +1,8 @@
 /*aparelho deitado*/
+
+body {
+    background: url(../imagens/cev-landscape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
