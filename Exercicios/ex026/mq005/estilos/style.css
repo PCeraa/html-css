@@ -33,7 +33,7 @@ i#burger:hover {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
