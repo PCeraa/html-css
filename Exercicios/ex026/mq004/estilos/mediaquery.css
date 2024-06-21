@@ -18,8 +18,29 @@ Extra Large Devices (Desktops grandes e monitores)
 1200px e acima
 */
 
-@media print {
+@media print { /*Impressão*/
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
 
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através dos meus estudos.com';
+    }
+
+    main h1 {
+        text-shadow: none;
+        color:  black;
+    }
+
+    img#phone { display: none;}
+    img#tablet { display: none;}
+    img#print { display: block;}
+    img#pc { display: none;}
+    img#tv { display: none;}
 }
 
 @media screen and (min-width:768px) and (max-width: 991px) { /*Medium Devices*/
