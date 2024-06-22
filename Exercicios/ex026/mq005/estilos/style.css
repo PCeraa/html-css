@@ -19,7 +19,7 @@ header > h1 {
 }
 
 i#burger {
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(77, 77, 77);
     color: white;
     display: block;
     text-align: center;
@@ -34,6 +34,8 @@ i#burger:hover {
 
 menu {
     display: none;
+    background-color: rgb(70, 70, 70);
+    padding: 1px;
 }
 
 menu > ul {
@@ -47,10 +49,11 @@ menu a {
     text-align: center;
     background-color: rgb(70, 70, 70);
     color: white;
-    border-top: 2px solid gray;
+    border: none;
 }
 
 menu a:hover {
+    transition-duration: 0.5s;
     background-color: rgb(150, 150, 150);
 }
 

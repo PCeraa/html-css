@@ -1,0 +1,44 @@
+/*Todas as demais midias*/
+
+/*Typical Device Brakpoints
+-------------------------
+Extra Small Devices (telefones pequenos)
+-576px
+
+Small Devices (Telefones maiores e tablets pequenos)
+De 992px até 767px
+
+Medium Devices (Tablets maiores e laptops)
+De 768px até 991px
+
+Large Devices (Desktops e laptops grandes)
+De 992px até 1199px
+
+Extra Large Devices (Desktops grandes e monitores)
+1200px e acima
+*/
+
+@media screen and (min-width:768px) {
+
+    i#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        margin-left: 10%;
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        border-radius: 5px;
+    }
+
+
+    main {
+        width: 768px;
+    }
+}
